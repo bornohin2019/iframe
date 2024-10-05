@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+     th, td, caption{
+        border: 2px solid;
+        padding: 10px 20px;
+     }
+    </style>
 </head>
 <body>
-    <h2>Table</h2>
+    <table> 
+        <thead>
+            <tr> 
+                <th colspan="3">XYZ CP</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody> 
+                <tr>
+                    <td>321</td>
+                    <td>badhon</td>
+                    <td>20000</td>
+                </tr>
+                <tr>
+                    <td>321</td>
+                    <td>tipu</td>
+                    <td>20000</td>
+                </tr>
+                <tr>
+                    <td>321</td>
+                    <td>fukrey</td>
+                    <td>20000</td>
+                </tr>
+                <tr>
+                    <td>321</td>
+                    <td>mh</td>
+                    <td>20000</td>
+                </tr>
+        </tbody> 
+        <tfoot> 
+            <tr>
+                <td colspan="3">Total Salary= 150000</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
